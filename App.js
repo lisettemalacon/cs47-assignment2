@@ -2,9 +2,7 @@ import AppLoading from 'expo-app-loading';
 import { StyleSheet, View, StatusBar, Text, Image, Dimensions} from 'react-native';
 import { useFonts } from 'expo-font';
 import { Themes, Icons } from './assets/Themes';
-import Header from './app/components/header';
-import Body from './app/components/body';
-import Footer from './app/components/footer';
+import {Header, Body, Footer} from './app/components'
 
 export default function App() {
   let [fontsLoaded] = useFonts({

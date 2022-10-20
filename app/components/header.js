@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, Image, Dimensions } from 'react-native';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
+
 const Header = () => {
     return (
         <View style={styles.header}>
