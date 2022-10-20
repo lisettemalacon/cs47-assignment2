@@ -3,7 +3,7 @@ import { Dimensions, PixelRatio } from 'react-native';
 import { create, act } from 'react-test-renderer';
 import { findAllByType, toBeCloseTo, toBeOf } from './utils';
 
-import { Footer } from '../../app/components';
+import { Footer } from '../../app/components/footer';
 import { Themes } from '../../assets/Themes';
 
 const isArr = Array.isArray;

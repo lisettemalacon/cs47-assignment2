@@ -3,7 +3,7 @@ import { Dimensions, PixelRatio } from 'react-native';
 import { create, act } from 'react-test-renderer';
 import { findAllByType, toBeCloseTo } from './utils';
 
-import { Header } from '../../app/components';
+import { Header } from '../../app/components/header';
 
 const { height, width } = Dimensions.get('window');
 

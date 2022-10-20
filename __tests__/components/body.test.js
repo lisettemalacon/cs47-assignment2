@@ -4,7 +4,7 @@ import { create, act } from 'react-test-renderer';
 import { findAllByType, toBeCloseTo, toBeOf } from './utils';
 import { Profiles, Themes } from '../../assets/Themes';
 
-import { Body } from '../../app/components';
+import { Body } from '../../app/components/body';
 
 const { height, width } = Dimensions.get('window');
 
